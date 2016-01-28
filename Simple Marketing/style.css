@@ -15,23 +15,34 @@ header {
 div {
 	margin-left: 15px;
 }
-.twoboxes {
+.box1 {
 	width: 600px;
 	border-width: 1px;
 	border-style: solid;
 	border-color: black;
 	height: 400px;
 	float: left;
-	margin: 15px 0px 15px 0px;
+	margin: 15px 15px 15px 0px;
 	background-color: gray;
 }
-.threeboxes {
-	width: 400px;
+.box2 {
+	width: 600px;
 	border-width: 1px;
 	border-style: solid;
 	border-color: black;
 	height: 400px;
-	float: right;
+	float: left;
+	margin: 15px 0px 15px 15px;
+	background-color: gray;
+}
+
+.threeboxes {
+	width: 375px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	height: 400px;
+	float: left;
 	background-color: gray;
 	clear: float;
 	margin-bottom: 15px;

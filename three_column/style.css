@@ -3,30 +3,53 @@ header {
 	border-width: 1px;
 	border-style: solid;
 	border-color: black;
-	height: 100px;
+	height: 150px;
 	background-color: gray;
+	margin-bottom: 15px;
 }
-section {
-  	float: left;
-  	width: 250px;
-  	height: 430px;
-  	margin: 15px;
-  	border-width: 1px;
-	border-style: solid;
-	border-color: black;
-	background-color: gray;
-}
-#middle {
-	width: 600px;
-	float: right;
-}
-footer {
-	width: 100%;
+.left {
+	width: 250px;
+	height: 300px;
 	border-width: 1px;
 	border-style: solid;
 	border-color: black;
-	height: 100px;
-	clear: both;
+	background-color: gray;
+	float: left;
+	margin-right: 15px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.middle {
+	width: 710px;
+	height: 300px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: gray;
+	float: center;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.right {
+	width: 250px;
+	height: 300px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: gray;
+	float: right;
+	margin-left: 15px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+footer {
+	width: 100%;
 	margin-top: 15px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	height: 150px;
+	clear: both;
+	float: left;
 	background-color: gray;
 }

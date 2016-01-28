@@ -37,9 +37,10 @@ aside {
 	border-color: black;
 	background-color: gray;
 	margin: 15px 15px 15px 0px;
+	
 }
 .main1 {
-	width: 1036px;
+	width: 1020px;
 	height: 125px;
 	border-width: 1px;
 	border-style: solid;
@@ -47,23 +48,26 @@ aside {
 	background-color: gray;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	clear: both;
 }	
 .main2 {
-	width: 775px;
+	width: 600px;
 	height: 275px;
 	border-width: 1px;
 	border-style: solid;
 	border-color: black;
 	background-color: gray;
+	clear: both;
 }
 .main3 {
-	width: 225px;
+	width: 300px;
 	height: 275px;
 	border-width: 1px;
 	border-style: solid;
 	border-color: black;
 	background-color: gray;
 	margin-left: 30px;
+	clear: both;
 }
 .littles {
 	width: 220px;
