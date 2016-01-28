@@ -1,0 +1,45 @@
+
+
+html {
+	text-align: center;
+}
+header {
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	height: 100px;
+	margin-bottom: 15px;
+	background-color: gray;
+
+}
+.phooey {
+	width: 66%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	height: 400px;
+	float: left;
+	margin: 0px 0px 15px 0px;
+	background-color: gray;
+}
+.peepee {
+	width: 33%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	height: 400px;
+	float: right;
+	margin: 0px 0px 15px 0px;
+	background-color: gray;
+}
+footer {
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	height: 100px;
+	clear: both;
+	margin-top: 15px;
+	background-color: gray;
+}

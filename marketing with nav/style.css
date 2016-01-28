@@ -1,0 +1,54 @@
+
+
+html {
+	text-align: center;
+}
+div {
+	display: inline-block;
+}
+header {
+	width: 300px;
+	height: 150px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: gray;
+	margin-right: 50px;
+	float: left;
+}
+nav {
+	width: 150px;
+	height: 75px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: gray;
+	float: right;
+}
+.main {
+	width: 100%;
+	height: 300px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: gray;
+}	
+.threeboxes {
+	width: 30%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	height: 150px;
+	float: left;
+	background-color: gray;
+	margin-bottom: 15px;
+}
+footer {
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	height: 100px;
+	clear: both;
+	background-color: gray;
+}

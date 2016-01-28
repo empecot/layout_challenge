@@ -1,0 +1,44 @@
+
+
+html {
+	text-align: center;
+}
+header {
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	height: 100px;
+	background-color: gray;
+}
+.twoboxes {
+	width: 48.9%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	height: 400px;
+	float: left;
+	margin: 15px 0px 15px 0px;
+	background-color: gray;
+	
+}
+.threeboxes {
+	width: 33.1%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	height: 400px;
+	float: left;
+	background-color: gray;
+	clear: float;
+	margin-bottom: 15px;
+}
+footer {
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	height: 100px;
+	clear: both;
+	background-color: gray;
+}

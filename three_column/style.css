@@ -1,0 +1,33 @@
+header {
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	height: 100px;
+	background-color: gray;
+}
+section {
+  	float: left;
+  	width: 25%;
+  	height: 200px;
+  	margin: 15px;
+  	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: gray;
+
+#middle {
+	width: 25%;
+	margin: 15px 0px 15px 0px;
+	display: inline-block;
+}
+footer {
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	height: 100px;
+	clear: both;
+	margin-top: 15px;
+	background-color: gray;
+}
