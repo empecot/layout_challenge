@@ -1,8 +1,9 @@
 
 
 html {
-	text-align: center;
+	text-align: justify;
 }
+
 header {
 	width: 100%;
 	border-width: 1px;
@@ -11,8 +12,11 @@ header {
 	height: 100px;
 	background-color: gray;
 }
+div {
+	margin-left: 15px;
+}
 .twoboxes {
-	width: 48.9%;
+	width: 600px;
 	border-width: 1px;
 	border-style: solid;
 	border-color: black;
@@ -20,15 +24,14 @@ header {
 	float: left;
 	margin: 15px 0px 15px 0px;
 	background-color: gray;
-	
 }
 .threeboxes {
-	width: 33.1%;
+	width: 400px;
 	border-width: 1px;
 	border-style: solid;
 	border-color: black;
 	height: 400px;
-	float: left;
+	float: right;
 	background-color: gray;
 	clear: float;
 	margin-bottom: 15px;

@@ -8,18 +8,17 @@ header {
 }
 section {
   	float: left;
-  	width: 25%;
-  	height: 200px;
+  	width: 250px;
+  	height: 430px;
   	margin: 15px;
   	border-width: 1px;
 	border-style: solid;
 	border-color: black;
 	background-color: gray;
-
+}
 #middle {
-	width: 25%;
-	margin: 15px 0px 15px 0px;
-	display: inline-block;
+	width: 600px;
+	float: right;
 }
 footer {
 	width: 100%;
