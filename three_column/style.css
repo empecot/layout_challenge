@@ -7,6 +7,10 @@ header {
 	background-color: gray;
 	margin-bottom: 15px;
 }
+.container {
+	display: flex;
+	justify-content: space-between;
+}
 .left {
 	width: 250px;
 	height: 300px;

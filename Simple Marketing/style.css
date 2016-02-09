@@ -1,7 +1,7 @@
 
 
 html {
-	text-align: justify;
+	box-sizing: border-box;
 }
 
 header {
@@ -13,10 +13,11 @@ header {
 	background-color: gray;
 }
 div {
-	margin-left: 15px;
+	display: flex;
+	justify-content: space-between;
 }
 .box1 {
-	width: 600px;
+	width: 655px;
 	border-width: 1px;
 	border-style: solid;
 	border-color: black;
@@ -26,18 +27,18 @@ div {
 	background-color: gray;
 }
 .box2 {
-	width: 600px;
+	width: 655px;
 	border-width: 1px;
 	border-style: solid;
 	border-color: black;
 	height: 400px;
 	float: left;
-	margin: 15px 0px 15px 15px;
 	background-color: gray;
+	margin-top: 15px;
 }
 
 .threeboxes {
-	width: 375px;
+	width: 400px;
 	border-width: 1px;
 	border-style: solid;
 	border-color: black;

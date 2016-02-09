@@ -18,13 +18,13 @@ header {
 	float: left;
 }
 nav {
-	width: 200px;
+	width: 175px;
 	height: 75px;
 	border-width: 1px;
 	border-style: solid;
 	border-color: black;
 	background-color: gray;
-	float: right;
+	float: left;
 	margin-right: 15px;
 	margin-top: 30px;
 }
@@ -79,10 +79,14 @@ aside {
 	background-color: gray;
 }
 #lefty {
-	margin-left: auto;
+	display: flex;
 }
 #righty {
 	margin-right: auto;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
 }
 footer {
 	width: 100%;
